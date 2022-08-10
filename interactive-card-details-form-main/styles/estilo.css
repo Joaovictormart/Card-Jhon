@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+     max-height: 710px;
+        font-family: 'Oxanium' ;
+}
+
+.img-desk{
+    width: 30vw;
+    height: 710px;
+}
+
+.form{
+    
+    display: inline-block;
+    color: blueviolet;
+    max-width: 60vw;
+    position: absolute;
+    left: 750px;
+    height: 700px;
+    
+}
+
+/* card-front */
+
+.cart-front{
+
+    position: relative;
+    top: 100px;
+    right: 600px;
+    border-radius: 5%;
+    max-width: 400px;
+
+}
+
+.card-logo {
+    
+    display: inline-block;
+    position: absolute;
+    right: 900px;
+    top: 130px;
+}
+
+.number{
+    display: block;
+    position: relative;
+    right: 530px;
+    top: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.jane{
+
+    position: relative;
+    right: 530px;
+    top: 26px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.data{
+
+    position: relative;
+    right: 400px;
+    top: 26px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* card-back */
+.card-back{
+    display: block;
+    border-radius: 5%;
+    max-width: 400px;
+    position: relative;
+    top: 102px;
+    right: 500px;
+}
+
+.cod{
+
+    display: block;
+    position: relative;
+    right: 200px;
+    bottom: 16px;
+    color: black;
+}
+.hidden{
+    visibility: hidden;
+}
+
+
+#btn-confirm{
+
+    width: 50px;
+    border: none;
+}
+
+.cv-c{
+        position: relative;
+        left: 27px;
+        bottom: 20px;
+        display: inline-block;
+        margin-left: 60px;
+    }
+
+.formulario{
+ 
+    position: relative;
+    bottom: 320px;
+}
+
+#jName{
+    
+    display: block;
+    
+}
+
+#nCard{
+
+    display: block;
+}
+
+.date{
+    display: block;
+}
+
+#MM{
+    display: inline-block;
+    width: 50px;
+}
+
+#YY{
+    display:inline-block;
+    width: 50px;
+}
+
+#cvc{
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    
+}
+
+#btn-confirm{
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 90px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: hsl(278, 68%, 11%);
+}
+
+#novo-recurso{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 23.5rem;
+    margin-left: 30rem;
+    
+}

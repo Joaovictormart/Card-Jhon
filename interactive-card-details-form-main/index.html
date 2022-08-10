@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" type="text/css" href="./styles/estilo.css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="contanier">
+
+    <img src="images/bg-main-desktop.png" class="img-desk">
+
+  
+<div class="form">
+ 
+  <div class="cc-front">
+
+    <img src="images/bg-card-front.png" alt="card" class="cart-front">
+  
+
+      <img src="images/card-logo.svg" alt="card-logo"  class="card-logo">
+
+
+    <span class="number">0000 0000 0000 0000</span>
+    <span class="jane">Jane Appleseed</span>
+    <span class="data"><span class="mm">00</span>/<span class="yy">00</span></span>
+  
+    <img src="images/bg-card-back.png" alt="bg-card-back" class="card-back">
+   
+
+    <span class="cod"> 000</span>
+  </div>
+<form class="formulario">
+
+  
+ <label>  Cardholder Name</label>
+  <input type="text" onchange="superF()" name="Jane" placeholder="e.g. Jane Appleseed" id="jName">
+
+
+  <label>Card Number</label>
+  <input type="number" name="numCard" placeholder="e.g. 1234 5678 9123 0000" id="nCard">
+
+  <label class="date">Exp. Date (MM/YY)</label>
+ <input type="number" placeholder="MM" id="MM">
+ <input type="number" placeholder=" YY" id="YY">
+
+ <label class="cv-c">CVC</label>
+  <input type="text" placeholder="e.g. 123" id="cvc">
+
+ <input  type="button"  value=" Confirm" id="btn-confirm"> 
+
+
+</form>
+</div>
+</div>
+  <!-- Completed state start -->
+
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="javascript/index.js"></script>
+</body>
+</html>
